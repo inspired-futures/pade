@@ -7,8 +7,13 @@ var branding = {
     beeKeeperPageSize       : {disable: true},
     enableIrma              : {disable: true},
     name                    : {disable: false, value: "pade"},
-    server                  : {disable: false, value: "pade.chat:5443"},
-    domain                  : {disable: false, value: "pade.chat"},
+    server                  : {disable: false, value: "meet.jit.si:443"},
+    domain                  : {disable: false, value: "meet.jit.si"},
+    boshUri                 : {disable: false, value: "https://meet.jit.si/http-bind"},
+    websocketUri            : {disable: false, value: "wss://meet.jit.si/xmpp-websocket"},
+    autoJoinRooms           : {disable: false, value: "lobby@conference.meet.jit.si"},   
+    credits                 : {disable: false, value: "<a href='https://jitsi.org' target='_blank' style='font-size: 16px;'>Pade | " + chrome.runtime.getManifest().version + "</a>"},
+    
 /*
     uport                   : {disable: true},
     uportPermission         : {disable: true},
