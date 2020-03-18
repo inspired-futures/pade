@@ -13,7 +13,8 @@ var branding = {
     websocketUri            : {disable: false, value: "wss://meet.jit.si/xmpp-websocket"},
     autoJoinRooms           : {disable: false, value: "lobby@conference.meet.jit.si"},   
     credits                 : {disable: false, value: "<a href='https://jitsi.org' target='_blank' style='font-size: 16px;'>Pade | " + chrome.runtime.getManifest().version + "</a>"},
-    
+    ofmeetUrl               : {disable: true, value: "https://meet.jit.si/"},    
+    useAnonymous            : {disable: true, value: true},    
 /*
     uport                   : {disable: true},
     uportPermission         : {disable: true},
