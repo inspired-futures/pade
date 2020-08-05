@@ -139,5 +139,5 @@ var branding = {
     beeFeedCheck            : {disable: true},
     beeKeeperPageSize       : {disable: true},
     restartDesc             : {disable: true},
-    enableIrma              : {disable: true},
+    enableIrma              : {disable: true, value: false},
 }
